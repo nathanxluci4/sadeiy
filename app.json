@@ -1,0 +1,18 @@
+{
+	"name": "SPIDER-V2",
+	"description": "⿻SPIDER-V2⿻",
+	"repository": "https://github.com/anonphoenix007/SPIDER-V2",
+	"logo": "https://telegra.ph/file/d7b7e5083a8955b5a30d8.png",
+	"keywords": ["multi-device"],
+        "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+          }
+     ]
+}
